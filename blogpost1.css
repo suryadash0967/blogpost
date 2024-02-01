@@ -50,6 +50,14 @@ body{
     gap: 30px;
 }
 
+@media (max-width: 768px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 figure{
     display: flex;
     flex-direction: column;
